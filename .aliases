@@ -1,0 +1,10 @@
+
+#Custom aliases
+alias cat="/bin/batcat --style=plain"
+alias bat="/bin/batcat"
+alias cl="/bin/clear"
+alias ls="/bin/exa -l"
+
+#Custom eval
+eval "$(starship init zsh)"
+eval "$(atuin init zsh)"
